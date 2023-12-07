@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Black Theme with Grey Tabs",
+  "version": "1.0",
+  "description": "An all-black theme with dark grey highlighted tabs",
+  "theme": {
+    "images": {
+      "theme_frame": "images/#000000.png",
+      "theme_toolbar": "images/#000000.png",
+      "theme_tab_background": "images/#212121.png",
+      "theme_tab_foreground": "images/#000000.png",
+      "theme_ntp_background": "images/#000000.png"
+    },
+    "colors": {
+      "frame": [0, 0, 0],
+      "toolbar": [0, 0, 0],
+      "tab_text": [255, 255, 255],
+      "bookmark_text": [255, 255, 255],
+      "tab_background_text": [255, 255, 255]
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom"
+    }
+  }
+}
